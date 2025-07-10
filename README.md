@@ -40,34 +40,34 @@ df.info()
 df.isnull().sum()
 ```
 
-### <b><font color= #FFFF00> Dataset Analysis :
+### <b> Dataset Analysis :
 
 #### *The dataset contains 10 columns and 100 rows. Based on the data types and usage, I’ve categorized the columns into 4 types:*
-- #### <b> <font color= #ABFF00> Identifiers columns :
+- #### <b> Identifiers columns :
     - ##### Order ID - 93 filled values & 7 null values, 
     - ##### Customer ID - 94 filled values & 6 null values, 
     - ##### Customer Name - 97 filled values & 3 null values.
-- #### <b> <font color= #ABFF00> Dates columns :
+- #### <b> Dates columns :
     - ##### Order Date - 85 filled values & 15 null values.
-- #### <b> <font color= #ABFF00> Categorical columns :
+- #### <b> Categorical columns :
     - ##### City - 88 filled values & 12 null values, 
     - ##### Region - 96 filled values & 4 null values, 
     - ##### Categor - 93 filled values & 7 null values.
-- #### <b> <font color= #ABFF00> Numerical columns :
+- #### <b> Numerical columns :
     - ##### Quantity - 93 filled values & 7 null values, 
     - ##### Sales - 89 filled values & 11 null values, 
     - ##### Profit - 88 filled values & 12 null values.
 
-# <b> <font color= #ABFF00> PART - 2
+# <b> PART - 2
 
-### <b><font color= #ABFF00> *1 - Handling the Identifiers columns :*
+### <b> *1 - Handling the Identifiers columns :*
 
 ```python
 df_copy = pd.DataFrame(df)
 df_copy.head()
 ```
 
-#### <b> <font color= #FFFF00> 1 - Handling the Order ID column :
+#### <b> 1 - Handling the Order ID column :
 - ##### *Type: Object*
 - ##### *Fill_values: 93*
 - ##### *Null_values: 7*
@@ -92,20 +92,20 @@ df_copy["Order ID"] = df_copy["Order ID"].fillna("Unknown")
 df_copy[df_copy["Order ID"] == "Unknown"]
 ```
 
-#### <b><font color= #FFFF00> Order ID column Analysis :
+#### <b> Order ID column Analysis :
 
-#### <b> <font color= #ABFF00> *Step - 1 :*
+#### <b> *Step - 1 :*
 ##### I am looking for any same order id is there in the column. All 93 order are having a unique id.
-#### <b> <font color= #ABFF00> *Step - 2 :*
+#### <b> *Step - 2 :*
 ##### Placing every order create unique Order ID. So, there is no possible to relate with any columns to fill the relative data for the missing value.
-#### <b> <font color= #ABFF00> *Conclusion :*
+#### <b> *Conclusion :*
 ##### Since the Order IDs are unique and there’s no meaningful logic to derive the missing values from other columns, I have filled the null values with the placeholder `"Unknown"` to retain row integrity without creating misleading data.
 
 ```python
 df_copy["Order ID"].info()
 ```
 
-#### <b> <font color= #FFFF00> 2 - Handling the Customer ID column :
+#### <b> 2 - Handling the Customer ID column :
 - ##### *Type: Object*
 - ##### *Fill_values: 94*
 - ##### *Null_values: 6*
@@ -130,19 +130,19 @@ df_copy["Customer ID"] = df_copy["Customer ID"].fillna("Unknown")
 df_copy[df_copy["Customer ID"] == "Unknown"]
 ```
 
-#### <b><font color= #FFFF00> Customer ID column Analysis :
+#### <b> Customer ID column Analysis :
 
-#### <b> <font color= #ABFF00> *Step - 1 :*
+#### <b> *Step - 1 :*
 ##### Checked for duplicate or repeated customer IDs to see if any customers placed multiple orders.
 ##### Result: All 94 customer IDs are unique.
-#### <b> <font color= #ABFF00> *Conclusion :*
+#### <b> *Conclusion :*
 ##### Since each customer is unique, there is no way to infer the missing values from other rows or columns. Therefore, I filled the null values with the placeholder `"Unknown"` to retain row integrity without creating misleading assumptions.
 
 ```python
 df_copy["Customer ID"].info()
 ```
 
-#### <b> <font color= #FFFF00> 3 - Handling the Customer Name column :
+#### <b> 3 - Handling the Customer Name column :
 - ##### *Type: Object*
 - ##### *Fill_values: 97*
 - ##### *Null_values: 3*
@@ -167,16 +167,16 @@ df_copy["Customer Name"] = df_copy["Customer Name"].fillna("Unknown")
 df_copy[df_copy["Customer Name"] == "Unknown"]
 ```
 
-#### <b><font color= #FFFF00> Customer Name column Analysis :
+#### <b> Customer Name column Analysis :
 
-#### <b> <font color= #ABFF00> *Step - 1 :*
+#### <b> *Step - 1 :*
 ##### Checked for duplicate or repeated customer names to see if any customers placed multiple orders.
 ##### Result: All 97 customer names are unique.
-#### <b> <font color= #ABFF00> *Step - 2 :*
+#### <b> *Step - 2 :*
 ##### Tried to relate Customer Name with Customer ID, but since all Customer IDs are also unique (except 6 missing), no reliable grouping or mapping is possible.
-#### <b> <font color= #ABFF00> *Conclusion :*
+#### <b> *Conclusion :*
 ##### As all customer names are unique and cannot be related to other identifiers, I filled the null values with the placeholder "Unknown" to preserve data consistency.
-#### <b> <font color= #ABFF00> *Why i did not use Forward Fill :*
+#### <b> *Why i did not use Forward Fill :*
 ##### While forward fill is a valid approach, it can cause misleading data in this case.
 
 ```python
@@ -187,14 +187,14 @@ df_copy["Customer Name"].info()
 df_copy[["Order ID", "Customer ID", "Customer Name"]].info()
 ```
 
-### <b><font color= #ABFF00> *2 - Handling the Dates columns :*
+### <b> *2 - Handling the Dates columns :*
 
 ```python
 df_date = pd.DataFrame(df_copy)
 df_date.head()
 ```
 
-#### <b> <font color= #FFFF00> 1 - Handling the Order Date column :
+#### <b> 1 - Handling the Order Date column :
 - ##### *Type: Object*
 - ##### *Fill_values: 85*
 - ##### *Null_values: 15*
