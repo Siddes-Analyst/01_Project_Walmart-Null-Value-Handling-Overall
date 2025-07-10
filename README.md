@@ -1,8 +1,8 @@
 # 🛒 Walmart Null Value Handling - Full Project Journal
 
-# <b> <font color= #ABFF00> Handling Null Values in Different Columns
+# <b> Handling Null Values in Different Columns
 
-### <b><font color= #FFFF00> Objective :
+### <b> Objective :
 
 #### *This is a realistic Walmart sales dataset. In this project, I aim to handle the missing (null) values using practical, real-world logic based on the type and context of each column.*
 ### Part 1:
@@ -12,9 +12,9 @@
 ### Part 3:
 - #### *Plot the chart before and after handling null values, Final summary.*
 
-# <b> <font color= #ABFF00> PART - 1
+# <b> PART - 1
 
-### <b><font color= #FFFF00> Import the librarys and Dataset :
+### <b> Import the librarys and Dataset :
 
 ```python
 import numpy as np
