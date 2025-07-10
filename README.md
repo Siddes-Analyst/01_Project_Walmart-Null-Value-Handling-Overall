@@ -1129,6 +1129,8 @@ isnull_count = isnull.values
 isnull_count
 ```
 
+![](After_Null_Plot.png)
+
 ```python
 fig, ax = plt.subplots(figsize= (12,7))
 ax.bar(df_column, df_count, color= "green")
