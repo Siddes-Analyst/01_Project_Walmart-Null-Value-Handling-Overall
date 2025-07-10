@@ -1145,6 +1145,9 @@ plt.show()
 df.info()
 ```
 
+![Before Null Plot](./images/Before_Null_Plot.png)
+
+
 #### <b> *After Handling null values*
 
 ```python
