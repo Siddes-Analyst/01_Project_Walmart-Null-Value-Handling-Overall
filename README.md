@@ -1129,7 +1129,7 @@ isnull_count = isnull.values
 isnull_count
 ```
 
-![](After_Null_Plot.png)
+![](Before_Null_Plot.png)
 
 ```python
 fig, ax = plt.subplots(figsize= (12,7))
@@ -1168,6 +1168,8 @@ plt.xticks(rotation=90)
 plt.tight_layout()
 plt.show()
 ```
+
+![](After_Null_Plot.png)
 
 ```python
 df_handled_missing_values.info()
