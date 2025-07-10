@@ -1,4 +1,3 @@
-# 01_Project_Walmart-Null-Value-Handling-Overall
 # 🛒 Walmart Null Value Handling - Full Project Journal
 
 # <b> <font color= #ABFF00> Handling Null Values in Different Columns
@@ -12,3 +11,30 @@
 - #### *Apply appropriate real-world logic to impute.*
 ### Part 3:
 - #### *Plot the chart before and after handling null values, Final summary.*
+
+# <b> <font color= #ABFF00> PART - 1
+
+### <b><font color= #FFFF00> Import the librarys and Dataset :
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+```python
+df = pd.read_csv(r"D:\B_Data_Anlysist_Project\Python_Projects\01_Handling_Null_Value\walmart_sales_with_nulls_value_dataset.csv")
+df.head()
+```
+
+```python
+df.shape
+```
+
+```python
+df.info()
+```
+
+```python
+df.isnull().sum()
