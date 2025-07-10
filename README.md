@@ -1199,13 +1199,8 @@ df_handled_missing_values.info()
 - ##### Nulls filled with `0.0` to avoid misleading results.
 
 # 🛒 Walmart Null Value Handling Project Documentation
-
 ![](page_1.png)
-
 ![](page_2.png)
-
 ![](page_3.png)
-
 ![](page_4.png)
-
 ![](page_5.png)
