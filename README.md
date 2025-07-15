@@ -1129,7 +1129,7 @@ isnull_count = isnull.values
 isnull_count
 ```
 
-![](Before_Null_Plot.png)
+![](All_files_in_one/04_01_Before_Null_Plot.png)
 
 ```python
 fig, ax = plt.subplots(figsize= (12,7))
@@ -1169,7 +1169,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![](After_Null_Plot.png)
+![](All_files_in_one/04_02_After_Null_Plot.png)
 
 ```python
 df_handled_missing_values.info()
@@ -1199,8 +1199,8 @@ df_handled_missing_values.info()
 - ##### Nulls filled with `0.0` to avoid misleading results.
 
 # 🛒 Walmart Null Value Handling Project Documentation
-![](page_1.png)
-![](page_2.png)
-![](page_3.png)
-![](page_4.png)
-![](page_5.png)
+![](All_files_in_one/05_01_page.png)
+![](All_files_in_one/05_02_page.png)
+![](All_files_in_one/05_03_page.png)
+![](All_files_in_one/05_04_page.png)
+![](All_files_in_one/05_05_page.png)
