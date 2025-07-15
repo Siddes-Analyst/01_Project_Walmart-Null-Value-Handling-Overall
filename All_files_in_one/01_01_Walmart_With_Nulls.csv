@@ -1,0 +1,101 @@
+Order ID,Order Date,Customer ID,Customer Name,City,Region,Category,Quantity,Sales,Profit
+CA-2021-1000,14-02-2025,CUST-1000,Jasmine Davis,East Tony,South,Office Supplies,10,843.53,
+CA-2021-1001,01-01-2024,CUST-1001,Ryan Lambert,East Melissaberg,Central,Furniture,3,868.01,
+CA-2021-1002,04-02-2024,CUST-1002,Lisa Hickman,West Debbie,Central,Furniture,2,105.02,296.82
+CA-2021-1003,04-08-2023,CUST-1003,Robert Smith,East Michael,West,,3,544.25,177.81
+CA-2021-1004,06-12-2024,CUST-1004,Jason Willis,Port Elizabeth,Central,Furniture,6,395.26,-64.67
+CA-2021-1005,02-09-2023,CUST-1005,Lori Murphy,Heatherville,South,Furniture,5,893.62,-33.41
+CA-2021-1006,,CUST-1006,Brandi Taylor,Parkermouth,Central,Furniture,4,710.76,-57.05
+CA-2021-1007,21-01-2024,CUST-1007,John Myers,South Destinyfort,West,Technology,6,147.01,10.46
+CA-2021-1008,14-09-2024,CUST-1008,Tony Stone,New Ritaside,West,Furniture,8,910.66,96.8
+CA-2021-1009,17-06-2025,,Susan Owens,West Cynthia,West,Office Supplies,3,126.3,105.62
+CA-2021-1010,,CUST-1010,,Port Melissa,Central,Office Supplies,2,749.34,
+CA-2021-1011,19-09-2024,CUST-1011,Alan Jackson,New Stephen,Central,,6,867.53,128.86
+CA-2021-1012,,CUST-1012,Jacob Sanders,Cathybury,West,Office Supplies,2,830.86,-4.6
+CA-2021-1013,01-10-2024,CUST-1013,Eric Reed,Ellisstad,East,Office Supplies,9,312.01,104.75
+CA-2021-1014,12-01-2025,CUST-1014,,Kennethbury,West,Furniture,2,206.72,-92.1
+CA-2021-1015,20-12-2023,CUST-1015,Martin Butler,Phillipport,South,Office Supplies,7,621.45,239.73
+CA-2021-1016,22-01-2024,CUST-1016,Edwin Cole,Wufurt,Central,Furniture,9,,105.83
+CA-2021-1017,20-08-2024,CUST-1017,Jessica Hunt,,South,Technology,7,30.11,195.85
+CA-2021-1018,14-06-2025,CUST-1018,Pamela Gray,,Central,Technology,7,138.49,112.02
+CA-2021-1019,,CUST-1019,Ryan Lang,North Joshuabury,South,Technology,4,209.45,147.2
+CA-2021-1020,04-05-2024,CUST-1020,Jacob Dixon,Joshuaborough,West,Furniture,9,339.19,115.11
+CA-2021-1021,29-04-2024,CUST-1021,Rachael Lopez,West Keithland,Central,Furniture,9,561.14,-40.56
+CA-2021-1022,28-09-2023,CUST-1022,Bill Solis,,South,Technology,2,27.27,275.28
+CA-2021-1023,19-08-2023,CUST-1023,Morgan Ramsey,Johnsonton,South,Technology,5,517.22,194.82
+CA-2021-1024,01-12-2024,CUST-1024,Noah Parks,Douglasport,Central,Office Supplies,,829.36,-71.03
+CA-2021-1025,12-11-2024,,Seth Brooks,Lake Stephanie,Central,Office Supplies,6,343.78,-42.91
+,,CUST-1026,Glenn Gonzalez,Port Kristinview,South,Furniture,6,75.28,-77.45
+CA-2021-1027,03-08-2023,CUST-1027,Daniel Newman,,East,Technology,7,507.22,-39.52
+CA-2021-1028,13-11-2024,CUST-1028,Patricia Harrison,,Central,Furniture,8,247.07,279.86
+CA-2021-1029,23-10-2023,CUST-1029,Paul Chavez,Chavezborough,South,Furniture,8,812.84,167.61
+CA-2021-1030,24-02-2025,CUST-1030,Deborah Johnson,Port Lynnfurt,East,Furniture,3,,221.83
+,02-04-2024,CUST-1031,Lisa Dominguez,Port Victoria,East,Office Supplies,,707.11,118.88
+CA-2021-1032,04-08-2024,CUST-1032,Jason Zuniga,East Michaeltown,West,Technology,2,155.03,146.38
+CA-2021-1033,31-10-2024,CUST-1033,Rodney Perry,North Jeremychester,West,Technology,7,,52.33
+CA-2021-1034,01-12-2023,CUST-1034,Christy Mullins,West Paige,East,Technology,9,477.43,
+,10-04-2025,CUST-1035,Cesar Campbell,South James,,Office Supplies,10,734.29,70.03
+CA-2021-1036,,CUST-1036,Susan Vazquez,Port Catherinestad,South,Technology,1,341.84,56.64
+,15-05-2025,CUST-1037,Kristin Johnson,Cynthiafurt,East,Furniture,1,754.2,174.73
+CA-2021-1038,23-01-2025,CUST-1038,Andrew Rose DDS,,West,Furniture,7,333.64,105.27
+CA-2021-1039,04-02-2025,CUST-1039,Sharon Austin,Garciahaven,South,Furniture,,997.94,101.42
+CA-2021-1040,16-06-2024,CUST-1040,Matthew Thomas,East Christopherchester,West,Furniture,,534.89,238.03
+CA-2021-1041,06-09-2024,CUST-1041,Samantha Barron,Port Maryville,Central,Technology,3,201.47,-59.97
+CA-2021-1042,15-02-2025,,Colleen Williams,Port Stephanie,Central,Office Supplies,1,,95.02
+CA-2021-1043,,CUST-1043,Michael Ross,Lake Kyleshire,West,Office Supplies,1,343.59,114.48
+CA-2021-1044,07-11-2023,CUST-1044,Mr. Anthony Mendoza,New Mckenzie,South,Furniture,10,728.24,
+,,CUST-1045,Nancy Fisher,Lake Maryhaven,West,Technology,2,847.45,161.73
+CA-2021-1046,16-12-2024,CUST-1046,Aaron Ortiz,Davidside,West,Office Supplies,6,,149.79
+CA-2021-1047,13-07-2023,CUST-1047,Michael Wright,Lake Tinaland,South,Office Supplies,3,879.73,143.03
+CA-2021-1048,,CUST-1048,Michelle Butler,North Brittany,East,Office Supplies,4,95.91,107.47
+CA-2021-1049,20-10-2023,CUST-1049,Alex Ellis,Lake Robin,South,,2,451.45,293.47
+CA-2021-1050,11-04-2024,CUST-1050,Nicole Stout,Larsenstad,West,Office Supplies,8,295.72,129.18
+CA-2021-1051,24-07-2023,CUST-1051,Joseph Campbell,Lake Craigstad,Central,Office Supplies,9,,215.96
+CA-2021-1052,28-04-2024,CUST-1052,Taylor Burton,,West,Furniture,2,,257.7
+CA-2021-1053,,CUST-1053,Rebecca Scott,Brownmouth,West,,8,210.09,-54.8
+,29-01-2025,CUST-1054,Jeffrey Barry,West Marieville,,Office Supplies,2,396.97,194.35
+CA-2021-1055,07-07-2024,CUST-1055,Shane Bell DVM,Matthewland,Central,,5,622.72,
+CA-2021-1056,12-07-2024,CUST-1056,Paul Gonzalez,New Kristinton,East,Technology,4,31.66,3.1
+CA-2021-1057,,CUST-1057,Jonathan Flores,Englishtown,East,Technology,8,263.34,47.95
+CA-2021-1058,20-08-2024,CUST-1058,Linda Navarro,New Diane,Central,Office Supplies,2,200.88,-66.62
+,03-02-2025,CUST-1059,Mary Bush,North Craigbury,East,Furniture,5,742.43,-44.92
+CA-2021-1060,22-05-2024,CUST-1060,Sarah Cook,,Central,Office Supplies,8,802.61,118.31
+CA-2021-1061,11-05-2025,CUST-1061,Edward Gonzales,Thomasshire,South,Technology,10,,63.81
+CA-2021-1062,,CUST-1062,Timothy Willis,Lake Desiree,East,Furniture,5,350.74,159.66
+CA-2021-1063,23-02-2024,CUST-1063,Richard Fernandez,New Amberbury,East,Office Supplies,5,911.59,155.4
+CA-2021-1064,05-08-2023,CUST-1064,Donald Morgan,East Emilyview,,Furniture,,,
+CA-2021-1065,13-02-2024,CUST-1065,Stephen Baldwin,Robertchester,East,Technology,2,596.08,-6.23
+CA-2021-1066,06-04-2024,CUST-1066,Jenna Wood,South Jaredside,South,Furniture,7,320.99,248.48
+CA-2021-1067,11-02-2025,CUST-1067,Charles Burch,Roberttown,Central,,1,742.89,135.2
+CA-2021-1068,07-07-2024,CUST-1068,Jenna Acosta,,West,Furniture,6,269.65,-72.93
+CA-2021-1069,16-03-2024,CUST-1069,Rebecca Sloan,Shawnshire,West,Furniture,7,472.4,
+CA-2021-1070,30-10-2024,CUST-1070,Steven Vang,South Ronald,South,Furniture,7,242.31,100.14
+CA-2021-1071,16-10-2024,CUST-1071,Anne Brown DDS,North Alexberg,South,Office Supplies,4,876.57,256.79
+CA-2021-1072,28-03-2024,CUST-1072,Timothy Anderson,West Carol,South,Furniture,5,724.7,-33.91
+CA-2021-1073,27-06-2024,CUST-1073,Kyle Kline,Sanchezport,Central,Furniture,5,631.67,-53.74
+CA-2021-1074,,CUST-1074,Stephen Shields,West Sharonport,Central,Office Supplies,3,854.32,195.81
+CA-2021-1075,01-11-2024,CUST-1075,Patrick Lee,,South,Furniture,7,239.38,
+CA-2021-1076,14-02-2025,CUST-1076,Felicia Herring,Turnerport,South,Furniture,1,178.34,
+CA-2021-1077,07-09-2023,CUST-1077,Steven Kent,Jenniferton,South,Technology,6,147.31,60.34
+CA-2021-1078,21-02-2025,CUST-1078,Kara Robertson,Port Christinaside,Central,Technology,,274.25,-27.95
+CA-2021-1079,09-03-2025,CUST-1079,Anne Schultz,Sarafurt,West,Office Supplies,9,226.6,63.65
+CA-2021-1080,30-08-2023,CUST-1080,Christopher Smith,Jillfurt,South,Furniture,9,214.44,
+CA-2021-1081,12-02-2025,CUST-1081,Julie Miller,Port Richard,East,Office Supplies,7,849.42,204.06
+CA-2021-1082,25-10-2023,CUST-1082,Kenneth Meyers,West Kimberly,South,Furniture,3,24.11,275.01
+CA-2021-1083,26-12-2023,CUST-1083,Steve Chambers,,Central,Technology,5,511.76,121.94
+CA-2021-1084,15-05-2024,,Kimberly Simon,Port Joshuastad,,Furniture,5,482.28,31.27
+CA-2021-1085,10-10-2023,CUST-1085,Christine Moore,New Madison,West,Furniture,1,38.2,40.97
+CA-2021-1086,07-01-2024,CUST-1086,Charles Rose,East Daniel,West,Furniture,7,404.77,248.82
+CA-2021-1087,04-03-2025,CUST-1087,Jeffrey Whitaker,South Stephanie,South,Office Supplies,3,614.35,-28.92
+CA-2021-1088,27-07-2023,CUST-1088,Thomas Smith,Beasleyfurt,West,Furniture,3,645.05,-51.55
+CA-2021-1089,,,Caitlin Chapman,Stewartland,Central,Technology,1,20.49,122.8
+CA-2021-1090,14-08-2023,CUST-1090,Andrea Rose,East Kristine,East,Technology,7,995.86,215.26
+CA-2021-1091,07-09-2024,CUST-1091,Hannah Jones DDS,Danielleton,East,,3,63.96,
+CA-2021-1092,20-01-2024,CUST-1092,Stephen Fields,North Carlaland,Central,Technology,2,826.3,-63.27
+CA-2021-1093,05-11-2024,CUST-1093,Jerry Carroll,,East,Technology,2,239.63,109.38
+CA-2021-1094,16-10-2023,,Curtis Escobar,Lake Katherine,Central,Technology,4,,201.22
+CA-2021-1095,01-08-2023,CUST-1095,,Lambertburgh,East,Office Supplies,6,215.45,-85.6
+CA-2021-1096,21-11-2023,CUST-1096,Tracey Smith,South Madelinemouth,South,Technology,,,204.61
+CA-2021-1097,29-12-2023,CUST-1097,Darrell Wilkinson DDS,Kristiland,South,Technology,4,589.23,145.13
+CA-2021-1098,23-01-2025,CUST-1098,Wendy Gordon,South Phillip,South,Furniture,1,632.64,260.67
+CA-2021-1099,,CUST-1099,Lisa Calderon,Matthewbury,East,Technology,1,800.25,158.23
